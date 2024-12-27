@@ -1,6 +1,6 @@
 {
   "id": "loeg-items",
-  "title": "LoEG Items",
+  "title": "LoEG Supplement",
   "url": "https://github.com/flyingsquad/loeg-items",
   "manifest": "https://raw.githubusercontent.com/flyingsquad/loeg-items/main/module.json",
   "download": "https://github.com/flyingsquad/loeg-items/archive/refs/tags/v1.0.0.zip",
