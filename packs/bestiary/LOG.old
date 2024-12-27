@@ -1,0 +1,8 @@
+2024/12/27-12:22:38.010 6404 Recovering log #68
+2024/12/27-12:22:38.013 6404 Delete type=0 #68
+2024/12/27-12:22:38.013 6404 Delete type=3 #66
+2024/12/27-13:52:41.789 b60 Level-0 table #73: started
+2024/12/27-13:52:41.789 b60 Level-0 table #73: 0 bytes OK
+2024/12/27-13:52:41.790 b60 Delete type=0 #71
+2024/12/27-13:52:41.792 b60 Manual compaction at level-0 from '!actors!aBySyznCxPkd0x9i' @ 72057594037927935 : 1 .. '!actors.items.effects!aBySyznCxPkd0x9i.O5H8qAxgDh57NNXJ.taOuIJzpDgRB9s2H' @ 0 : 0; will stop at (end)
+2024/12/27-13:52:41.792 b60 Manual compaction at level-1 from '!actors!aBySyznCxPkd0x9i' @ 72057594037927935 : 1 .. '!actors.items.effects!aBySyznCxPkd0x9i.O5H8qAxgDh57NNXJ.taOuIJzpDgRB9s2H' @ 0 : 0; will stop at (end)
