@@ -1,6 +1,9 @@
 {
   "id": "loeg-items",
   "title": "LoEG Items",
+  "url": "https://github.com/flyingsquad/loeg-items",
+  "manifest": "https://raw.githubusercontent.com/flyingsquad/loeg-items/main/module.json",
+  "download": "https://github.com/flyingsquad/loeg-items/archive/refs/tags/v1.0.0.zip",
   "version": "1.0.0",
   "compatibility": {
     "minimum": "12",
@@ -65,6 +68,17 @@
       "label": "Example Characters",
       "path": "packs/example-characters",
       "type": "Actor",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "scenes",
+      "label": "Scenes",
+      "path": "packs/scenes",
+      "type": "Scene",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
