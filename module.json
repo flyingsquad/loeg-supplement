@@ -3,8 +3,8 @@
   "title": "LoEG Supplement",
   "url": "https://github.com/flyingsquad/loeg-supplement",
   "manifest": "https://raw.githubusercontent.com/flyingsquad/loeg-supplement/main/module.json",
-  "download": "https://github.com/flyingsquad/loeg-supplement/archive/refs/tags/v1.0.5.zip",
-  "version": "1.0.5",
+  "download": "https://github.com/flyingsquad/loeg-supplement/archive/refs/tags/v1.0.6.zip",
+  "version": "1.0.6",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
@@ -79,6 +79,28 @@
       "label": "Scenes",
       "path": "packs/scenes",
       "type": "Scene",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "loeg-macros",
+      "label": "LoEG Macros",
+      "path": "packs/loeg-macros",
+      "type": "Macro",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "loeg-ancestries",
+      "label": "LoEG Ancestries",
+      "path": "packs/loeg-ancestries",
+      "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
