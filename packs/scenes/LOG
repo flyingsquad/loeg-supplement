@@ -1,15 +1,8 @@
-2024/12/30-19:36:29.916 3390 Recovering log #97
-2024/12/30-19:36:29.916 3390 Delete type=0 #97
-2024/12/30-19:36:29.916 3390 Delete type=3 #95
-2024/12/30-19:44:15.229 397c Level-0 table #103: started
-2024/12/30-19:44:15.230 397c Level-0 table #103: 8006 bytes OK
-2024/12/30-19:44:15.231 397c Delete type=0 #101
-2024/12/30-19:44:15.244 397c Manual compaction at level-0 from '!scenes!4paYXej0mvuFllC8' @ 72057594037927935 : 1 .. '!scenes.tiles!4paYXej0mvuFllC8.r08uPlniXbStmgHe' @ 0 : 0; will stop at (end)
-2024/12/30-19:44:15.244 397c Manual compaction at level-1 from '!scenes!4paYXej0mvuFllC8' @ 72057594037927935 : 1 .. '!scenes.tiles!4paYXej0mvuFllC8.r08uPlniXbStmgHe' @ 0 : 0; will stop at '!scenes.tiles!UoLtASOu9bgQRx4V.r08uPlniXbStmgHe' @ 369 : 0
-2024/12/30-19:44:15.244 397c Compacting 1@1 + 1@2 files
-2024/12/30-19:44:15.245 397c Generated table #104@1: 23 keys, 7520 bytes
-2024/12/30-19:44:15.245 397c Compacted 1@1 + 1@2 files => 7520 bytes
-2024/12/30-19:44:15.245 397c compacted to: files[ 0 0 1 0 0 0 0 ]
-2024/12/30-19:44:15.245 397c Delete type=2 #99
-2024/12/30-19:44:15.245 397c Delete type=2 #103
-2024/12/30-19:44:15.285 397c Manual compaction at level-1 from '!scenes.tiles!UoLtASOu9bgQRx4V.r08uPlniXbStmgHe' @ 369 : 0 .. '!scenes.tiles!4paYXej0mvuFllC8.r08uPlniXbStmgHe' @ 0 : 0; will stop at (end)
+2024/12/31-15:03:16.661 394 Recovering log #165
+2024/12/31-15:03:16.677 394 Delete type=0 #165
+2024/12/31-15:03:16.677 394 Delete type=3 #163
+2024/12/31-15:06:14.630 4cd4 Level-0 table #170: started
+2024/12/31-15:06:14.630 4cd4 Level-0 table #170: 0 bytes OK
+2024/12/31-15:06:14.630 4cd4 Delete type=0 #168
+2024/12/31-15:06:14.630 4cd4 Manual compaction at level-0 from '!scenes!4paYXej0mvuFllC8' @ 72057594037927935 : 1 .. '!scenes.tiles!4paYXej0mvuFllC8.r08uPlniXbStmgHe' @ 0 : 0; will stop at (end)
+2024/12/31-15:06:14.630 4cd4 Manual compaction at level-1 from '!scenes!4paYXej0mvuFllC8' @ 72057594037927935 : 1 .. '!scenes.tiles!4paYXej0mvuFllC8.r08uPlniXbStmgHe' @ 0 : 0; will stop at (end)
