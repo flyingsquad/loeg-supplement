@@ -1,8 +1,15 @@
-2024/12/29-13:54:32.116 3a6c Recovering log #80
-2024/12/29-13:54:32.118 3a6c Delete type=0 #80
-2024/12/29-13:54:32.119 3a6c Delete type=3 #78
-2024/12/29-15:31:56.814 58e8 Level-0 table #85: started
-2024/12/29-15:31:56.814 58e8 Level-0 table #85: 0 bytes OK
-2024/12/29-15:31:56.815 58e8 Delete type=0 #83
-2024/12/29-15:31:56.815 58e8 Manual compaction at level-0 from '!scenes!8zxsVqtyX40gm5cI' @ 72057594037927935 : 1 .. '!scenes.tokens.delta!8zxsVqtyX40gm5cI.zzWEs512FIbyQUUP.l3YmPTDlBmTTDWAV' @ 0 : 0; will stop at (end)
-2024/12/29-15:31:56.815 58e8 Manual compaction at level-1 from '!scenes!8zxsVqtyX40gm5cI' @ 72057594037927935 : 1 .. '!scenes.tokens.delta!8zxsVqtyX40gm5cI.zzWEs512FIbyQUUP.l3YmPTDlBmTTDWAV' @ 0 : 0; will stop at (end)
+2024/12/30-13:07:09.313 2178 Recovering log #93
+2024/12/30-13:07:09.315 2178 Delete type=0 #93
+2024/12/30-13:07:09.315 2178 Delete type=3 #91
+2024/12/30-18:54:21.967 2438 Level-0 table #98: started
+2024/12/30-18:54:21.969 2438 Level-0 table #98: 8004 bytes OK
+2024/12/30-18:54:21.971 2438 Delete type=0 #96
+2024/12/30-18:54:21.973 2438 Manual compaction at level-0 from '!scenes!UoLtASOu9bgQRx4V' @ 72057594037927935 : 1 .. '!scenes.tiles!UoLtASOu9bgQRx4V.r08uPlniXbStmgHe' @ 0 : 0; will stop at (end)
+2024/12/30-18:54:21.974 2438 Manual compaction at level-1 from '!scenes!UoLtASOu9bgQRx4V' @ 72057594037927935 : 1 .. '!scenes.tiles!UoLtASOu9bgQRx4V.r08uPlniXbStmgHe' @ 0 : 0; will stop at '!scenes.tiles!slA3j1pyysmVAfan.r08uPlniXbStmgHe' @ 323 : 0
+2024/12/30-18:54:21.974 2438 Compacting 1@1 + 1@2 files
+2024/12/30-18:54:21.975 2438 Generated table #99@1: 23 keys, 7518 bytes
+2024/12/30-18:54:21.975 2438 Compacted 1@1 + 1@2 files => 7518 bytes
+2024/12/30-18:54:21.975 2438 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/12/30-18:54:21.975 2438 Delete type=2 #90
+2024/12/30-18:54:21.976 2438 Delete type=2 #98
+2024/12/30-18:54:21.976 2438 Manual compaction at level-1 from '!scenes.tiles!slA3j1pyysmVAfan.r08uPlniXbStmgHe' @ 323 : 0 .. '!scenes.tiles!UoLtASOu9bgQRx4V.r08uPlniXbStmgHe' @ 0 : 0; will stop at (end)
