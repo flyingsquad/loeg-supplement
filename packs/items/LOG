@@ -1,3 +1,8 @@
 2025/01/01-07:39:15.470 4138 Recovering log #278
 2025/01/01-07:39:15.472 4138 Delete type=0 #278
 2025/01/01-07:39:15.472 4138 Delete type=3 #276
+2025/01/01-08:53:05.931 9a8 Level-0 table #283: started
+2025/01/01-08:53:05.931 9a8 Level-0 table #283: 0 bytes OK
+2025/01/01-08:53:05.932 9a8 Delete type=0 #281
+2025/01/01-08:53:05.934 9a8 Manual compaction at level-0 from '!items!EGYY4392J0Kak9Kp' @ 72057594037927935 : 1 .. '!items!wSqttXpu8SWveHrx' @ 0 : 0; will stop at (end)
+2025/01/01-08:53:05.934 9a8 Manual compaction at level-1 from '!items!EGYY4392J0Kak9Kp' @ 72057594037927935 : 1 .. '!items!wSqttXpu8SWveHrx' @ 0 : 0; will stop at (end)
