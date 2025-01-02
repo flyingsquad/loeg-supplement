@@ -1,8 +1,15 @@
-2025/01/02-08:44:26.802 2108 Recovering log #264
-2025/01/02-08:44:26.802 2108 Delete type=0 #264
-2025/01/02-08:44:26.802 2108 Delete type=3 #263
-2025/01/02-10:14:06.609 5ad8 Level-0 table #268: started
-2025/01/02-10:14:06.609 5ad8 Level-0 table #268: 0 bytes OK
-2025/01/02-10:14:06.610 5ad8 Delete type=0 #266
-2025/01/02-10:14:06.613 5ad8 Manual compaction at level-0 from '!scenes!4paYXej0mvuFllC8' @ 72057594037927935 : 1 .. '!scenes.tiles!4paYXej0mvuFllC8.r08uPlniXbStmgHe' @ 0 : 0; will stop at (end)
-2025/01/02-10:14:06.722 5ad8 Manual compaction at level-1 from '!scenes!4paYXej0mvuFllC8' @ 72057594037927935 : 1 .. '!scenes.tiles!4paYXej0mvuFllC8.r08uPlniXbStmgHe' @ 0 : 0; will stop at (end)
+2025/01/02-17:45:04.263 810 Recovering log #279
+2025/01/02-17:45:04.263 810 Delete type=0 #279
+2025/01/02-17:45:04.263 810 Delete type=3 #277
+2025/01/02-17:56:27.418 5690 Level-0 table #284: started
+2025/01/02-17:56:27.419 5690 Level-0 table #284: 8603 bytes OK
+2025/01/02-17:56:27.419 5690 Delete type=0 #282
+2025/01/02-17:56:27.420 5690 Manual compaction at level-0 from '!scenes!6N3AcnjiArFNca1t' @ 72057594037927935 : 1 .. '!scenes.tokens.delta!6N3AcnjiArFNca1t.XuUz4iwUKd3T7jlD.tQ1DQsyACJcAhTQM' @ 0 : 0; will stop at (end)
+2025/01/02-17:56:27.423 5690 Manual compaction at level-1 from '!scenes!6N3AcnjiArFNca1t' @ 72057594037927935 : 1 .. '!scenes.tokens.delta!6N3AcnjiArFNca1t.XuUz4iwUKd3T7jlD.tQ1DQsyACJcAhTQM' @ 0 : 0; will stop at '!scenes.tokens.delta!6N3AcnjiArFNca1t.XuUz4iwUKd3T7jlD.tQ1DQsyACJcAhTQM' @ 435 : 1
+2025/01/02-17:56:27.423 5690 Compacting 1@1 + 1@2 files
+2025/01/02-17:56:27.424 5690 Generated table #285@1: 27 keys, 8801 bytes
+2025/01/02-17:56:27.424 5690 Compacted 1@1 + 1@2 files => 8801 bytes
+2025/01/02-17:56:27.425 5690 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/01/02-17:56:27.425 5690 Delete type=2 #104
+2025/01/02-17:56:27.425 5690 Delete type=2 #284
+2025/01/02-17:56:27.429 5690 Manual compaction at level-1 from '!scenes.tokens.delta!6N3AcnjiArFNca1t.XuUz4iwUKd3T7jlD.tQ1DQsyACJcAhTQM' @ 435 : 1 .. '!scenes.tokens.delta!6N3AcnjiArFNca1t.XuUz4iwUKd3T7jlD.tQ1DQsyACJcAhTQM' @ 0 : 0; will stop at (end)
