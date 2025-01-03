@@ -1,15 +1,8 @@
-2025/01/02-17:45:04.263 810 Recovering log #279
-2025/01/02-17:45:04.263 810 Delete type=0 #279
-2025/01/02-17:45:04.263 810 Delete type=3 #277
-2025/01/02-17:56:27.418 5690 Level-0 table #284: started
-2025/01/02-17:56:27.419 5690 Level-0 table #284: 8603 bytes OK
-2025/01/02-17:56:27.419 5690 Delete type=0 #282
-2025/01/02-17:56:27.420 5690 Manual compaction at level-0 from '!scenes!6N3AcnjiArFNca1t' @ 72057594037927935 : 1 .. '!scenes.tokens.delta!6N3AcnjiArFNca1t.XuUz4iwUKd3T7jlD.tQ1DQsyACJcAhTQM' @ 0 : 0; will stop at (end)
-2025/01/02-17:56:27.423 5690 Manual compaction at level-1 from '!scenes!6N3AcnjiArFNca1t' @ 72057594037927935 : 1 .. '!scenes.tokens.delta!6N3AcnjiArFNca1t.XuUz4iwUKd3T7jlD.tQ1DQsyACJcAhTQM' @ 0 : 0; will stop at '!scenes.tokens.delta!6N3AcnjiArFNca1t.XuUz4iwUKd3T7jlD.tQ1DQsyACJcAhTQM' @ 435 : 1
-2025/01/02-17:56:27.423 5690 Compacting 1@1 + 1@2 files
-2025/01/02-17:56:27.424 5690 Generated table #285@1: 27 keys, 8801 bytes
-2025/01/02-17:56:27.424 5690 Compacted 1@1 + 1@2 files => 8801 bytes
-2025/01/02-17:56:27.425 5690 compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/01/02-17:56:27.425 5690 Delete type=2 #104
-2025/01/02-17:56:27.425 5690 Delete type=2 #284
-2025/01/02-17:56:27.429 5690 Manual compaction at level-1 from '!scenes.tokens.delta!6N3AcnjiArFNca1t.XuUz4iwUKd3T7jlD.tQ1DQsyACJcAhTQM' @ 435 : 1 .. '!scenes.tokens.delta!6N3AcnjiArFNca1t.XuUz4iwUKd3T7jlD.tQ1DQsyACJcAhTQM' @ 0 : 0; will stop at (end)
+2025/01/02-20:01:28.169 1bc Recovering log #305
+2025/01/02-20:01:28.175 1bc Delete type=0 #305
+2025/01/02-20:01:28.175 1bc Delete type=3 #303
+2025/01/02-20:19:57.577 1b10 Level-0 table #310: started
+2025/01/02-20:19:57.577 1b10 Level-0 table #310: 0 bytes OK
+2025/01/02-20:19:57.578 1b10 Delete type=0 #308
+2025/01/02-20:19:57.578 1b10 Manual compaction at level-0 from '!scenes!YBJ5qpIMD9sOFDKE' @ 72057594037927935 : 1 .. '!scenes.tiles!YBJ5qpIMD9sOFDKE.r08uPlniXbStmgHe' @ 0 : 0; will stop at (end)
+2025/01/02-20:19:57.582 1b10 Manual compaction at level-1 from '!scenes!YBJ5qpIMD9sOFDKE' @ 72057594037927935 : 1 .. '!scenes.tiles!YBJ5qpIMD9sOFDKE.r08uPlniXbStmgHe' @ 0 : 0; will stop at (end)
