@@ -1,25 +1,8 @@
-2025/01/04-13:04:38.422 406c Recovering log #486
-2025/01/04-13:04:38.424 406c Delete type=0 #486
-2025/01/04-13:04:38.424 406c Delete type=3 #485
-2025/01/04-13:51:09.146 66f8 Level-0 table #490: started
-2025/01/04-13:51:09.164 66f8 Level-0 table #490: 1405915 bytes OK
-2025/01/04-13:51:09.164 66f8 Delete type=0 #488
-2025/01/04-13:51:09.164 66f8 Manual compaction at level-0 from '!actors!1qkct3hAXJVmKO5T' @ 72057594037927935 : 1 .. '!folders!YQ7GUE6ePoxo0xqh' @ 0 : 0; will stop at (end)
-2025/01/04-13:51:09.174 66f8 Manual compaction at level-1 from '!actors!1qkct3hAXJVmKO5T' @ 72057594037927935 : 1 .. '!folders!YQ7GUE6ePoxo0xqh' @ 0 : 0; will stop at '!folders!YQ7GUE6ePoxo0xqh' @ 28265 : 1
-2025/01/04-13:51:09.174 66f8 Compacting 1@1 + 6@2 files
-2025/01/04-13:51:09.206 66f8 Generated table #491@1: 1466 keys, 2125183 bytes
-2025/01/04-13:51:09.239 66f8 Generated table #492@1: 1438 keys, 2126487 bytes
-2025/01/04-13:51:09.274 66f8 Generated table #493@1: 1440 keys, 2124404 bytes
-2025/01/04-13:51:09.314 66f8 Generated table #494@1: 1442 keys, 2124903 bytes
-2025/01/04-13:51:09.347 66f8 Generated table #495@1: 1450 keys, 2124334 bytes
-2025/01/04-13:51:09.354 66f8 Generated table #496@1: 378 keys, 452621 bytes
-2025/01/04-13:51:09.354 66f8 Compacted 1@1 + 6@2 files => 11077932 bytes
-2025/01/04-13:51:09.354 66f8 compacted to: files[ 0 0 6 0 0 0 0 ]
-2025/01/04-13:51:09.354 66f8 Delete type=2 #461
-2025/01/04-13:51:09.354 66f8 Delete type=2 #462
-2025/01/04-13:51:09.354 66f8 Delete type=2 #463
-2025/01/04-13:51:09.354 66f8 Delete type=2 #464
-2025/01/04-13:51:09.354 66f8 Delete type=2 #465
-2025/01/04-13:51:09.354 66f8 Delete type=2 #466
-2025/01/04-13:51:09.354 66f8 Delete type=2 #490
-2025/01/04-13:51:09.364 66f8 Manual compaction at level-1 from '!folders!YQ7GUE6ePoxo0xqh' @ 28265 : 1 .. '!folders!YQ7GUE6ePoxo0xqh' @ 0 : 0; will stop at (end)
+2025/01/04-17:55:30.926 53ac Recovering log #498
+2025/01/04-17:55:30.942 53ac Delete type=0 #498
+2025/01/04-17:55:30.942 53ac Delete type=3 #497
+2025/01/04-18:52:50.944 5b4 Level-0 table #502: started
+2025/01/04-18:52:50.944 5b4 Level-0 table #502: 0 bytes OK
+2025/01/04-18:52:50.945 5b4 Delete type=0 #500
+2025/01/04-18:52:50.945 5b4 Manual compaction at level-0 from '!actors!1qkct3hAXJVmKO5T' @ 72057594037927935 : 1 .. '!folders!YQ7GUE6ePoxo0xqh' @ 0 : 0; will stop at (end)
+2025/01/04-18:52:50.948 5b4 Manual compaction at level-1 from '!actors!1qkct3hAXJVmKO5T' @ 72057594037927935 : 1 .. '!folders!YQ7GUE6ePoxo0xqh' @ 0 : 0; will stop at (end)
