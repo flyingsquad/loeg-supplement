@@ -1,8 +1,27 @@
-2025/01/04-17:55:30.926 53ac Recovering log #498
-2025/01/04-17:55:30.942 53ac Delete type=0 #498
-2025/01/04-17:55:30.942 53ac Delete type=3 #497
-2025/01/04-18:52:50.944 5b4 Level-0 table #502: started
-2025/01/04-18:52:50.944 5b4 Level-0 table #502: 0 bytes OK
-2025/01/04-18:52:50.945 5b4 Delete type=0 #500
-2025/01/04-18:52:50.945 5b4 Manual compaction at level-0 from '!actors!1qkct3hAXJVmKO5T' @ 72057594037927935 : 1 .. '!folders!YQ7GUE6ePoxo0xqh' @ 0 : 0; will stop at (end)
-2025/01/04-18:52:50.948 5b4 Manual compaction at level-1 from '!actors!1qkct3hAXJVmKO5T' @ 72057594037927935 : 1 .. '!folders!YQ7GUE6ePoxo0xqh' @ 0 : 0; will stop at (end)
+2025/01/06-14:03:34.232 5d7c Recovering log #573
+2025/01/06-14:03:34.238 5d7c Delete type=0 #573
+2025/01/06-14:03:34.238 5d7c Delete type=3 #572
+2025/01/06-14:21:50.278 3224 Level-0 table #577: started
+2025/01/06-14:21:50.299 3224 Level-0 table #577: 1647439 bytes OK
+2025/01/06-14:21:50.300 3224 Delete type=0 #575
+2025/01/06-14:21:50.305 3224 Manual compaction at level-0 from '!actors!1qkct3hAXJVmKO5T' @ 72057594037927935 : 1 .. '!folders!YQ7GUE6ePoxo0xqh' @ 0 : 0; will stop at (end)
+2025/01/06-14:21:50.305 3224 Manual compaction at level-1 from '!actors!1qkct3hAXJVmKO5T' @ 72057594037927935 : 1 .. '!folders!YQ7GUE6ePoxo0xqh' @ 0 : 0; will stop at '!folders!YQ7GUE6ePoxo0xqh' @ 37973 : 1
+2025/01/06-14:21:50.305 3224 Compacting 1@1 + 7@2 files
+2025/01/06-14:21:50.336 3224 Generated table #578@1: 1442 keys, 2123876 bytes
+2025/01/06-14:21:50.362 3224 Generated table #579@1: 1453 keys, 2124929 bytes
+2025/01/06-14:21:50.383 3224 Generated table #580@1: 1439 keys, 2124189 bytes
+2025/01/06-14:21:50.403 3224 Generated table #581@1: 1441 keys, 2126223 bytes
+2025/01/06-14:21:50.423 3224 Generated table #582@1: 1436 keys, 2126997 bytes
+2025/01/06-14:21:50.443 3224 Generated table #583@1: 1431 keys, 2123511 bytes
+2025/01/06-14:21:50.459 3224 Generated table #584@1: 1174 keys, 1589282 bytes
+2025/01/06-14:21:50.459 3224 Compacted 1@1 + 7@2 files => 14339007 bytes
+2025/01/06-14:21:50.459 3224 compacted to: files[ 0 0 7 0 0 0 0 ]
+2025/01/06-14:21:50.459 3224 Delete type=2 #560
+2025/01/06-14:21:50.459 3224 Delete type=2 #561
+2025/01/06-14:21:50.460 3224 Delete type=2 #562
+2025/01/06-14:21:50.460 3224 Delete type=2 #563
+2025/01/06-14:21:50.460 3224 Delete type=2 #565
+2025/01/06-14:21:50.460 3224 Delete type=2 #566
+2025/01/06-14:21:50.461 3224 Delete type=2 #567
+2025/01/06-14:21:50.461 3224 Delete type=2 #577
+2025/01/06-14:21:50.466 3224 Manual compaction at level-1 from '!folders!YQ7GUE6ePoxo0xqh' @ 37973 : 1 .. '!folders!YQ7GUE6ePoxo0xqh' @ 0 : 0; will stop at (end)

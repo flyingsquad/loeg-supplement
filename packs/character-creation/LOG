@@ -1,8 +1,15 @@
-2025/01/04-18:58:22.955 5b70 Recovering log #444
-2025/01/04-18:58:22.955 5b70 Delete type=0 #444
-2025/01/04-18:58:22.955 5b70 Delete type=3 #442
-2025/01/04-18:59:19.619 374c Level-0 table #449: started
-2025/01/04-18:59:19.619 374c Level-0 table #449: 0 bytes OK
-2025/01/04-18:59:19.620 374c Delete type=0 #447
-2025/01/04-18:59:19.640 374c Manual compaction at level-0 from '!folders!9ANd2jlwww4PyjS2' @ 72057594037927935 : 1 .. '!journal.pages!y0rOR5bEOc22SIty.fedSGJNxZa3Fk40l' @ 0 : 0; will stop at (end)
-2025/01/04-18:59:19.640 374c Manual compaction at level-1 from '!folders!9ANd2jlwww4PyjS2' @ 72057594037927935 : 1 .. '!journal.pages!y0rOR5bEOc22SIty.fedSGJNxZa3Fk40l' @ 0 : 0; will stop at (end)
+2025/01/06-14:22:36.170 5d7c Recovering log #492
+2025/01/06-14:22:36.172 5d7c Delete type=0 #492
+2025/01/06-14:22:36.172 5d7c Delete type=3 #490
+2025/01/06-14:30:40.406 3224 Level-0 table #497: started
+2025/01/06-14:30:40.406 3224 Level-0 table #497: 53756 bytes OK
+2025/01/06-14:30:40.406 3224 Delete type=0 #495
+2025/01/06-14:30:40.406 3224 Manual compaction at level-0 from '!folders!9ANd2jlwww4PyjS2' @ 72057594037927935 : 1 .. '!journal.pages!y0rOR5bEOc22SIty.fedSGJNxZa3Fk40l' @ 0 : 0; will stop at (end)
+2025/01/06-14:30:40.406 3224 Manual compaction at level-1 from '!folders!9ANd2jlwww4PyjS2' @ 72057594037927935 : 1 .. '!journal.pages!y0rOR5bEOc22SIty.fedSGJNxZa3Fk40l' @ 0 : 0; will stop at '!journal.pages!y0rOR5bEOc22SIty.fedSGJNxZa3Fk40l' @ 989 : 1
+2025/01/06-14:30:40.406 3224 Compacting 1@1 + 1@2 files
+2025/01/06-14:30:40.406 3224 Generated table #498@1: 26 keys, 54703 bytes
+2025/01/06-14:30:40.406 3224 Compacted 1@1 + 1@2 files => 54703 bytes
+2025/01/06-14:30:40.406 3224 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/01/06-14:30:40.406 3224 Delete type=2 #439
+2025/01/06-14:30:40.406 3224 Delete type=2 #497
+2025/01/06-14:30:40.406 3224 Manual compaction at level-1 from '!journal.pages!y0rOR5bEOc22SIty.fedSGJNxZa3Fk40l' @ 989 : 1 .. '!journal.pages!y0rOR5bEOc22SIty.fedSGJNxZa3Fk40l' @ 0 : 0; will stop at (end)

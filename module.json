@@ -3,8 +3,8 @@
   "title": "LoEG Supplement",
   "url": "https://github.com/flyingsquad/loeg-supplement",
   "manifest": "https://raw.githubusercontent.com/flyingsquad/loeg-supplement/main/module.json",
-  "download": "https://github.com/flyingsquad/loeg-supplement/archive/refs/tags/v1.2.2.zip",
-  "version": "1.2.2",
+  "download": "https://github.com/flyingsquad/loeg-supplement/archive/refs/tags/v1.2.3.zip",
+  "version": "1.2.3",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
@@ -117,6 +117,17 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
+    },
+    {
+      "name": "loeg-powers",
+      "label": "LoEG Powers",
+      "path": "packs/loeg-powers",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "swade"
     }
   ]
 }
