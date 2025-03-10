@@ -1,0 +1,8 @@
+2025/03/10-18:11:52.968 3590 Recovering log #404
+2025/03/10-18:11:52.968 3590 Delete type=0 #404
+2025/03/10-18:11:52.968 3590 Delete type=3 #403
+2025/03/10-18:28:04.925 125c Level-0 table #408: started
+2025/03/10-18:28:04.925 125c Level-0 table #408: 0 bytes OK
+2025/03/10-18:28:04.925 125c Delete type=0 #406
+2025/03/10-18:28:04.926 125c Manual compaction at level-0 from '!folders!YDanKQSoH6IiZAOn' @ 72057594037927935 : 1 .. '!items!wiYoNtBpru8Gblus' @ 0 : 0; will stop at (end)
+2025/03/10-18:28:04.926 125c Manual compaction at level-1 from '!folders!YDanKQSoH6IiZAOn' @ 72057594037927935 : 1 .. '!items!wiYoNtBpru8Gblus' @ 0 : 0; will stop at (end)
