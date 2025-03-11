@@ -103,19 +103,6 @@ export class LoEGutils {
 		}
 	}
 	
-	moveTokens() {
-		if (canvas.tokens.controlled.length < 1)
-			return;
-		const deltaX = canvas.mousePosition.x - canvas.tokens.controlled[0].x;
-		const deltaY = canvas.mousePosition.y - canvas.tokens.controlled[0].y;
-		for (let token of canvas.tokens.controlled) {
-			let gridx = Math.floor((token.x + deltaX) / canvas.grid.size);
-			let gridy = Math.floor((token.y + deltaY) / canvas.grid.size);
-			token.document.update({"x": gridx * canvas.grid.size, "y": gridy * canvas.grid.size});
-		}
-		
-	}
-
 	static {
 		//console.log("LoEGutils | loaded.");
 
@@ -124,20 +111,6 @@ export class LoEGutils {
 			if (!game.LoEGutils) {
 				game.LoEGutils = new LoEGutils();
 			}
-
-			game.keybindings.register("loeg-supplement", "moveTokens", {
-			  name: "Move Selected Tokens",
-			  hint: "When this key is pressed the selected tokens will be moved to the current mouse location.",
-			  editable: [
-				{
-				  key: "M"
-				}
-			  ],
-			  onDown: keybind => game.LoEGutils.moveTokens(),
-			  restricted: true,             // Restrict this Keybinding to gamemaster only?
-			  precedence: CONST.KEYBINDING_PRECEDENCE.NORMAL
-			});
-
 		});
 	}
 
