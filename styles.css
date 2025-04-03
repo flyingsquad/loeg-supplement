@@ -105,6 +105,17 @@
 }
 .img { border: 0px }
 
+.dateline {
+	border-top: 1pt solid #000000;
+	border-bottom: 1pt solid #000000;
+	padding-bottom: 2pt;
+	padding-top: 4pt;
+	font-family: "Times";
+	font-size: 9pt;
+	text-align: center;
+	text-transform: uppercase;
+}
+
 .headline {
 	font-family: "Windsor";
 	font-size: 16pt;
@@ -115,6 +126,22 @@
 
 .headline2 {
 	font-family: "Windsor";
+	font-size: 14pt;
+	font-style: italic;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.headlineb1 {
+	font-family: "Baskerville";
+	font-size: 16pt;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.headlineb2 {
+	font-family: "Baskerville";
 	font-size: 14pt;
 	font-style: italic;
 	text-align: center;
@@ -168,6 +195,13 @@
 	text-transform: uppercase;
 }
 
+.masthead {
+	font-family: "Old English";
+	font-size: 64pt;
+	text-align: center;
+	margin: 0 0 0 0;
+}
+
 .headtimes {
 	font-family: "Times";
 	font-weight: bold;
@@ -201,6 +235,8 @@
 	margin-top: 14pt;
 }
 .allura { font-family: Allura; font-size: 22pt;}
+.blackletter { font-family: "Black Letter"; font-size: 22pt;}
+.brush { font-family: "Brush Script"; font-size: 22pt;}
 .dancing { font-family: "Dancing"; font-size: 20pt;}
 .mistral { font-family: Mistral; font-size: 22pt;}
 .garamond { font-family: Garamond; font-size: 13pt; }
@@ -217,6 +253,10 @@
 .scfell { font-family: "Fell Small Caps"; font-size: 20pt; }
 .typewriter { font-family: Typewriter; font-size: 13pt; line-height:150%; margin-top: 13pt;}
 .vladimir { font-family: "Vladimir"; font-size: 22pt;}
+
+.newsimg {
+	display: block; margin-left: auto; margin-right: auto; width: 75%; margin-top: 10px; margin-bottom: 10px; border-width: 0px
+}
 
 .telegram {
   background-image: url("https://blk-aws.s3.us-east-2.amazonaws.com/images/LoEG/telegram-blank.jpg");

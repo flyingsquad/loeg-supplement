@@ -2,7 +2,7 @@ export class LoEGutils {
 	
 	showDialog = false;
 	
-	attackSequence() {
+	async attackSequence() {
 		function compareNoCase(a, b) {
 			const nameA = a.name.toUpperCase(); // ignore upper and lowercase
 			const nameB = b.name.toUpperCase(); // ignore upper and lowercase
@@ -56,7 +56,7 @@ export class LoEGutils {
 					items.map((item)=>{
 						buttons[item.id]={
 							label: item.name,
-							callback: (html)=>{
+							callback: async (html)=> {
 								if (swadeTools.active) {
 									let dialog=false;
 									if (html.find("#showmore")[0].checked)
@@ -64,7 +64,8 @@ export class LoEGutils {
 									this.showDialog = dialog;
 									game.swade.swadetoolsAttack(actoratc,item,dialog)
 								} else {
-									game.brsw.create_item_card(actoratc,item.id,true)
+									const message = await game.brsw.create_item_card(actoratc,item.id,true);
+									await game.brsw.roll_item(message, "", false, true);
 								}
 							}
 						}
