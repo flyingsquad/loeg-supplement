@@ -8,6 +8,10 @@
   src: url('https://blk-aws.s3.amazonaws.com/fonts/Allura.ttf') format('truetype');
 }
 @font-face {
+  font-family: "Architect";
+  src: url('https://blk-aws.s3.amazonaws.com/fonts/architect.ttf') format('truetype');
+}
+@font-face {
   font-family: 'Baskerville';
   src: url('./fonts/BASKVILL.ttf') format('truetype');
 }
@@ -99,11 +103,16 @@
   font-family: 'Windsor';
   src: url('https://blk-aws.s3.amazonaws.com/fonts/WindsorLight.TTF') format('truetype');
 }
+@font-face {
+  font-family: 'Techno';
+  src: url('https://blk-aws.s3.amazonaws.com/fonts/techno-bold.ttf') format('truetype');
+}
 
 .newspaper {
 	background-color: white; padding:.25in
 }
 .img { border: 0px }
+.charportrait { display: block; margin-left: auto; margin-right: auto; width: 200px; border: 0px; }
 
 .dateline {
 	border-top: 1pt solid #000000;
@@ -155,6 +164,7 @@
 .body {
 	font-family: "Times";
 	text-align: justify;
+	hyphens: auto;
 	font-size: 13pt;
 	text-indent: .2in;
 	margin: 0 0 0 0;
@@ -215,6 +225,7 @@
 	font-family: "Bookman Old Style";
 	text-align: justify;
 	font-size: 12pt;
+	hyphens: auto;
 	text-indent: .2in;
 	margin: 0 0 0 0;
 }
@@ -235,6 +246,7 @@
 	margin-top: 14pt;
 }
 .allura { font-family: Allura; font-size: 22pt;}
+.architect { font-family: Architect; font-size: 18pt; font-weight: bold;}
 .blackletter { font-family: "Black Letter"; font-size: 22pt;}
 .brush { font-family: "Brush Script"; font-size: 22pt;}
 .dancing { font-family: "Dancing"; font-size: 20pt;}
@@ -251,6 +263,7 @@
 .rye { font-family: Rye; font-size: 20pt;}
 .sacramento { font-family: Sacramento; font-size: 20pt; }
 .scfell { font-family: "Fell Small Caps"; font-size: 20pt; }
+.techno { font-family: "Techno"; font-size: 20pt; }
 .typewriter { font-family: Typewriter; font-size: 13pt; line-height:150%; margin-top: 13pt;}
 .vladimir { font-family: "Vladimir"; font-size: 22pt;}
 
@@ -301,3 +314,6 @@
   width: 100px; height: 20px;
 }
 
+blockquote {
+	border-left: none;
+}

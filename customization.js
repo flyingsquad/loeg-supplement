@@ -116,3 +116,78 @@ export class LoEGutils {
 	}
 
 }
+
+
+Hooks.once('ready', () => {
+	const BETTER_ROLLS_GLOBAL_ACTIONS = [
+		{
+			"id": "LASERPARRY",
+			"name": "Laser Parry",
+			"button_name": "has Laser Parry",
+			"skillMod": "-2",
+			"and_selector": [
+				{
+					"selector_type": "target_has_effect",
+					"selector_value": "Laser Parry"
+				},
+				{
+					"or_selector": [
+						{
+							"selector_type": "item_name",
+							"selector_value": "Bolt"
+						},
+						{
+							"selector_type": "skill",
+							"selector_value": "Shooting"
+						}
+					]
+				}
+			],
+			"group": "BRSW.Target",
+			"defaultChecked": "on"
+		},
+		{
+			"id": "DOUBLETAP",
+			"name": "Double Tap",
+			"button_name": "Double Tap",
+			"skillMod": "+1",
+			"dmgMod": "+1",
+			"and_selector": [
+				{
+					"selector_type": "actor_has_edge",
+					"selector_value": "Double Tap"
+				},
+				{
+					"selector_type": "skill",
+					"selector_value": "Shooting"
+				}
+			],
+			"shotsUsed": 2,
+			"group": "BRSW.Edges"
+		},
+		{
+			"id": "CHARACTER_HAS_HEALER",
+			"name": "Healer",
+			"button_name": "Healer",
+			"skillMod": "+2",
+			"and_selector": [
+				{
+					"selector_type": "actor_has_edge",
+					"selector_value": "Healer"
+				},
+				{
+					"selector_type": "item_name",
+					"selector_value": "Healing"
+				}
+			],
+			"group": "BRSW.Edges",
+			"defaultChecked": "on"
+		}
+	];
+
+	if (game.modules.get("betterrolls-swade2")?.active) {
+	  game.brsw.add_actions(BETTER_ROLLS_GLOBAL_ACTIONS);
+	} else {
+	  ui.notifications.error("Activate Better Rolls module for custom actions.");
+	}  
+});
