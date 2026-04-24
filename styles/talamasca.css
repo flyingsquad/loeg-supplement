@@ -1,0 +1,41 @@
+/************************************************
+	Headers and text
+************************************************/
+
+.sheet.journal-entry.talamasca-journal h1,
+.sheet.journal-entry.talamasca-journal h2,
+.sheet.journal-entry.talamasca-journal h3 {
+	font-family: 'Copperplate';
+    border-bottom: unset;
+    color: #000000;
+}
+
+.sheet.journal-entry.talamasca-journal h4,
+.sheet.journal-entry.talamasca-journal h5,
+.sheet.journal-entry.talamasca-journal h6 {
+    color: #000000;
+}
+
+/* Links (internet) */
+
+.sheet.journal-entry.talamasca-journal a:link {
+    color: #000044;
+}
+
+.sheet.journal-entry.talamasca-journal a:visited {
+    color: #110000;
+}
+
+.sheet.journal-entry.talamasca-journal a:hover {
+    color: #000000;
+    text-shadow: 0px 0px 2px #792f24;
+}
+
+.sheet.journal-entry.talamasca-journal p,
+.sheet.journal-entry.talamasca-journal li {
+	font-family: 'Bookman Old Style';
+}
+
+.sheet.journal-entry.talamasca-journal ul {
+	list-style-type: square;
+}

@@ -1,0 +1,187 @@
+{
+  "id": "loeg-supplement",
+  "title": "SWADE Campaign Supplement",
+  "url": "https://github.com/flyingsquad/loeg-supplement",
+  "manifest": "https://raw.githubusercontent.com/flyingsquad/loeg-supplement/main/module.json",
+  "download": "https://github.com/flyingsquad/loeg-supplement/archive/refs/tags/v13.0.0.zip",
+  "version": "13.0.0",
+  "esmodules": [
+	"./customization.js",
+	"./custom-journal.js",
+	"./temptarget.js"
+  ],
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13"
+  },
+  "styles": [
+    "./styles/styles.css",
+    "./styles/talamasca.css",
+    "./styles/loeg.css"
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "swade",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "packs": [
+    {
+      "name": "items",
+      "label": "Supplemental Special Items",
+      "path": "packs/items",
+      "type": "Item",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "bestiary",
+      "label": "Supplemental Bestiary",
+      "path": "packs/bestiary",
+      "type": "Actor",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "weapons",
+      "label": "Supplemental Weapons & Armor",
+      "path": "packs/weapons",
+      "type": "Item",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "character-creation",
+      "label": "Character Creation",
+      "path": "packs/character-creation",
+      "type": "JournalEntry",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "example-characters",
+      "label": "Example Characters",
+      "path": "packs/example-characters",
+      "type": "Actor",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "scenes",
+      "label": "Scenes",
+      "path": "packs/scenes",
+      "type": "Scene",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "loeg-macros",
+      "label": "Supplemental Macros",
+      "path": "packs/loeg-macros",
+      "type": "Macro",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "loeg-ancestries",
+      "label": "Supplemental Ancestries",
+      "path": "packs/loeg-ancestries",
+      "type": "Item",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "loeg-archetypes",
+      "label": "Supplemental Archetypes",
+      "path": "packs/loeg-archetypes",
+      "type": "Item",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "loeg-powers",
+      "label": "Supplemental Powers",
+      "path": "packs/loeg-powers",
+      "type": "Item",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "arcane-items",
+      "label": "Supplemental Arcane Items",
+      "path": "packs/arcane-items",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "swade"
+    },
+    {
+      "name": "loeg-actions",
+      "label": "Supplemental Actions",
+      "path": "packs/actions",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "swade"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "SWADE Campaign Supplement",
+      "sorting": "m",
+      "color": "#991515",
+      "packs": [
+		"character-creation",
+		"items",
+		"weapons",
+		"example-characters",
+		"scenes",
+		"loeg-ancestries",
+		"loeg-macros",
+		"loeg-archetypes",
+		"loeg-powers",
+		"arcane-items",
+		"bestiary",
+		"actions"
+      ],
+      "folders": []
+    }
+  ] 
+}

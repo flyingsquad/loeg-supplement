@@ -1,0 +1,41 @@
+/************************************************
+	Headers and text
+************************************************/
+
+.sheet.journal-entry.nebenwelt-journal h1,
+.sheet.journal-entry.nebenwelt-journal h2,
+.sheet.journal-entry.nebenwelt-journal h3 {
+	font-family: 'Copperplate';
+    border-bottom: unset;
+    color: #000000;
+}
+
+.sheet.journal-entry.nebenwelt-journal h4,
+.sheet.journal-entry.nebenwelt-journal h5,
+.sheet.journal-entry.nebenwelt-journal h6 {
+    color: #000000;
+}
+
+/* Links (internet) */
+
+.sheet.journal-entry.nebenwelt-journal a:link {
+    color: #000044;
+}
+
+.sheet.journal-entry.nebenwelt-journal a:visited {
+    color: #110000;
+}
+
+.sheet.journal-entry.nebenwelt-journal a:hover {
+    color: #000044;
+    text-shadow: 0px 0px 2px #000066;
+}
+
+.sheet.journal-entry.nebenwelt-journal p,
+.sheet.journal-entry.nebenwelt-journal li {
+	font-family: 'Bookman Old Style';
+}
+
+.sheet.journal-entry.nebenwelt-journal ul {
+	list-style-type: square;
+}
