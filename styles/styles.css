@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
 @font-face {
   font-family: 'Algerian';
-  src: url('./fonts/Alger.ttf') format('truetype');
+  src: url('../fonts/Alger.ttf') format('truetype');
 }
 @font-face {
   font-family: 'Copperplate';
@@ -26,7 +26,7 @@
 }
 @font-face {
   font-family: 'Baskerville';
-  src: url('./fonts/BASKVILL.ttf') format('truetype');
+  src: url('../fonts/BASKVILL.ttf') format('truetype');
 }
 @font-face {
   font-family: 'Black Letter';
@@ -34,7 +34,7 @@
 }
 @font-face {
   font-family: 'Bookman Old Style';
-  src: url('./fonts/Bookos.ttf') format('truetype');
+  src: url('../fonts/Bookos.ttf') format('truetype');
 }
 @font-face {
   font-family: 'Brush Script';
@@ -205,6 +205,21 @@
 	font-size: 13pt;
 	text-indent: .2in;
 	margin: 0 0 0 0;
+}
+
+.parade {
+	font-family: "Times";
+	text-align: justify;
+	hyphens: auto;
+	font-size: 13pt;
+	background-color: white;
+	color: black;
+	padding: 20px;
+}
+
+.right-image {
+	float: right;
+	padding-left: 10px;
 }
 
 .ad {
@@ -413,3 +428,17 @@ blockquote {
 .url {
 	color: #000044;
 }
+
+.vertical-buttons {
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+}
+
+.vertical-button {
+	display: block;
+	width: 100%;
+	padding: 2px;
+	font-size: 14px;
+}
+

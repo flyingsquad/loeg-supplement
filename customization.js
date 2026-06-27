@@ -568,3 +568,40 @@ Hooks.once('ready', () => {
 	  ui.notifications.error("Activate Better Rolls module for custom actions.");
 	}  
 });
+
+Hooks.on("createActor", async (actor, action, id) => {
+	if (id != game.user.id)
+		return;
+	
+	let updates = {
+		"prototypeToken": {
+			"displayBars": 30, 
+			"bar1.attribute": "wounds",
+			"bar2.attribute": "fatigue"
+		}
+	};
+	if (actor.prototypeToken.texture.scaleX == 1)
+		updates.prototypeToken.texture = { "scaleX": 0.8, "scaleY": 0.8};
+
+	await actor.update(updates);
+});
+
+Hooks.on("BRSW-RollItem", async (card, arg2) => {
+	const item = card.item;
+	if (!item.charges)
+		return;
+	let charge = item.system.charges.default;
+	if (item.system.quantity <= 0 || charge.value <= 0) {
+		ChatMessage.create({
+			speaker: card.actor,
+			content: `${item.name} has no remaining charges.`
+		});
+		return;
+	}
+	charge.value--;
+	ChatMessage.create({
+		speaker: card.actor,
+		content: `One charge used on ${item.name}, ${charge.value} remaining.`
+	});
+	await item.update({"system.charges": item.system.charges});
+});

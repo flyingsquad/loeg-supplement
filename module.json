@@ -3,16 +3,17 @@
   "title": "SWADE Campaign Supplement",
   "url": "https://github.com/flyingsquad/loeg-supplement",
   "manifest": "https://raw.githubusercontent.com/flyingsquad/loeg-supplement/main/module.json",
-  "download": "https://github.com/flyingsquad/loeg-supplement/archive/refs/tags/v13.0.0.zip",
-  "version": "13.0.0",
+  "download": "https://github.com/flyingsquad/loeg-supplement/archive/refs/tags/v14.0.0.zip",
+  "version": "14.0.0",
   "esmodules": [
 	"./customization.js",
 	"./custom-journal.js",
-	"./temptarget.js"
+	"./temptarget.js",
+	"./attack-sequence.js"
   ],
   "compatibility": {
     "minimum": "12",
-    "verified": "13"
+    "verified": "14"
   },
   "styles": [
     "./styles/styles.css",
