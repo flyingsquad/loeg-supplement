@@ -117,7 +117,7 @@ export class LoEGutils {
 
 }
 
-Hooks.once('ready', () => {
+Hooks.once('brswReady', () => {
 	const BETTER_ROLLS_GLOBAL_ACTIONS = [
 		{
 			"id": "HALFDAMAGENORMAL",
@@ -598,6 +598,25 @@ Hooks.on("BRSW-RollItem", async (card, arg2) => {
 		});
 		return;
 	}
+
+	if (charge.max == 1) {
+		// Single-use item: decrement quantity.
+		let quant = item.system.quantity - 1;
+		if (quant == 0) {
+			ChatMessage.create({
+				speaker: card.actor,
+				content: `Last charge used on ${item.name}, none remaining.`
+			});
+		} else {
+			ChatMessage.create({
+				speaker: card.actor,
+				content: `One charge used on ${item.name}, ${quant} remaining.`
+			});
+		}
+		await item.update({"system.quantity": quant});
+		return;
+	}
+
 	charge.value--;
 	ChatMessage.create({
 		speaker: card.actor,

@@ -5,7 +5,7 @@
  * file
  */
  
-class TalamascaJournal extends JournalSheet {
+class TalamascaJournal extends foundry.appv1.sheets.JournalSheet {
 	static get defaultOptions() {
 		const options = super.defaultOptions;
 		options.classes.push('talamasca-journal');
@@ -13,7 +13,7 @@ class TalamascaJournal extends JournalSheet {
 	}
 }
 
-class LoEGJournal extends JournalSheet {
+class LoEGJournal extends foundry.appv1.sheets.JournalSheet {
 	static get defaultOptions() {
 		const options = super.defaultOptions;
 		options.classes.push('loeg-journal');
@@ -21,7 +21,7 @@ class LoEGJournal extends JournalSheet {
 	}
 }
 
-class NebenweltJournal extends JournalSheet {
+class NebenweltJournal extends foundry.appv1.sheets.JournalSheet {
 	static get defaultOptions() {
 		const options = super.defaultOptions;
 		options.classes.push('nebenwelt-journal');
@@ -34,19 +34,19 @@ Hooks.on("init", (documentTypes) => {
 
 console.log("Custom Journals | Registering the module's sheets.");
 
-Journal.registerSheet("journals", TalamascaJournal, {
+foundry.documents.collections.Journal.registerSheet("journals", TalamascaJournal, {
 	label: "Talamasca",
 	types: ["base"],
 	makeDefault: false
 });
 
-Journal.registerSheet("journals", LoEGJournal, {
+foundry.documents.collections.Journal.registerSheet("journals", LoEGJournal, {
 	label: "LoEG",
 	types: ["base"],
 	makeDefault: false
 });
 
-Journal.registerSheet("journals", NebenweltJournal, {
+foundry.documents.collections.Journal.registerSheet("journals", NebenweltJournal, {
 	label: "Nebenwelt",
 	types: ["base"],
 	makeDefault: false
