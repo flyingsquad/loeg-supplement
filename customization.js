@@ -178,6 +178,10 @@ Hooks.once('brswReady', () => {
 					"selector_type": "target_has_edge",
 					"selector_value": "Arcane Resistance"
 				},
+				{ 
+					selector_type: "item_type", 
+					selector_value: "weapon"
+				},
 				{
 					not_selector: [
 						{ selector_type: "target_has_edge", selector_value: "Improved Arcane Resistance" },
@@ -186,12 +190,8 @@ Hooks.once('brswReady', () => {
 				{
 					"or_selector": [
 						{
-							"selector_type": "item_type",
-							"selector_value": "power"
-						},
-						{
-							"selector_type": "item_value",
-							"selector_value": "system.isArcaneDevice=1"
+							"selector_type": "skill",
+							"selector_value": "Focus"
 						}
 					]
 				}
@@ -229,6 +229,10 @@ Hooks.once('brswReady', () => {
 						{
 							"selector_type": "item_value",
 							"selector_value": "system.isArcaneDevice=1"
+						},
+						{
+							"selector_type": "skill",
+							"selector_value": "Focus"
 						}
 					]
 				}
@@ -247,15 +251,15 @@ Hooks.once('brswReady', () => {
 					"selector_type": "target_has_edge",
 					"selector_value": "Improved Arcane Resistance"
 				},
+				{ 
+					selector_type: "item_type", 
+					selector_value: "weapon"
+				},
 				{
 					"or_selector": [
 						{
-							"selector_type": "item_type",
-							"selector_value": "power"
-						},
-						{
-							"selector_type": "item_value",
-							"selector_value": "system.isArcaneDevice=1"
+							"selector_type": "skill",
+							"selector_value": "Focus"
 						}
 					]
 				}
@@ -283,6 +287,10 @@ Hooks.once('brswReady', () => {
 						{
 							"selector_type": "item_value",
 							"selector_value": "system.isArcaneDevice=1"
+						},
+						{
+							"selector_type": "skill",
+							"selector_value": "Focus"
 						}
 					]
 				}
@@ -310,6 +318,10 @@ Hooks.once('brswReady', () => {
 						{
 							"selector_type": "item_value",
 							"selector_value": "system.isArcaneDevice=1"
+						},
+						{
+							"selector_type": "skill",
+							"selector_value": "Focus"
 						}
 					]
 				}
@@ -377,7 +389,7 @@ Hooks.once('brswReady', () => {
 			"id": "ISINVISIBLE",
 			"name": "Is Invisible",
 			"button_name": "Is Invisible",
-			"skillMod": "-6",
+			"skillMod": "-4",
 			"and_selector": [
 				{
 					"or_selector": [
